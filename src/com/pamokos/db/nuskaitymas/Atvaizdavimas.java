@@ -151,6 +151,7 @@ public class Atvaizdavimas {
                 System.out.println("");
 
 
+
             }
             statement.executeUpdate("UPDATE students set name='Naujas' where id=1");
             System.out.println(statement);

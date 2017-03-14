@@ -3,7 +3,11 @@ package com.pamokos.db.nuskaitymas;
 public class Main {
 
     public static void main(String[] args) {
-    Atvaizdavimas duombaze = new Atvaizdavimas();
+        Atvaizdavimas duombaze = new Atvaizdavimas();
+        duombaze.paklausk();
+        while (true) {
+            duombaze.nuspresk();
 
+        }
     }
 }
